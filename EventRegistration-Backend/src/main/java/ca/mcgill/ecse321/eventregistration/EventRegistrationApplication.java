@@ -12,7 +12,7 @@ public class EventRegistrationApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EventRegistrationApplication.class, args);
 	}
-
+//hi
 	@RequestMapping("/")
 	public String greeting() {
 		return "ECSE321 Event Registration Application - Backend base URL.\n"
